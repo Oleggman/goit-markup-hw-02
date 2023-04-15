@@ -26,7 +26,7 @@ body {
 }
 
 .link {
-  color: var(--main-color);
+  color: inherit;
   text-decoration: none;
 }
 
@@ -45,8 +45,7 @@ body {
   color: var(--logo-color);
 }
 
-.logo-span,
-.address .link {
+.logo-span {
   color: var(--secondary-color);
 }
 
