@@ -5,8 +5,9 @@
   /* Colors */
   --main-color: #2e2f42;
   --main-color-hover: #404bbf;
-  --secondary-color: ##434455;
+  --secondary-color: #434455;
   --main-bg-btn-cl: #4d5ae5;
+  --cloud-color: #f4f4fd;
   --white-color: #fff;
 
   --main-portfolio-filter-cl: #4d5ae5;
@@ -15,8 +16,11 @@
 }
 
 body {
-  color: var(--main-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   font-family: var(--main-font);
+  color: var(--main-color);
 }
 
 .site-logo {
@@ -26,6 +30,10 @@ body {
 .link {
   color: var(--main-color);
   text-decoration: none;
+}
+
+.address .link {
+  color: var(--secondary-color);
 }
 
 .button {
@@ -48,8 +56,53 @@ body {
   list-style: none;
 }
 
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
 .description {
   color: var(--secondary-color);
+}
+
+/* Hero sectin */
+
+.hero {
+  background-color: var(--main-color);
+  color: var(--white-color);
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+}
+
+/* Our Team */
+.team .item-title,
+.team .description {
+  text-align: center;
+}
+
+/* Address */
+
+.address {
+  font-style: normal;
+}
+
+.footer {
+  color: var(--cloud-color);
+  background-color: var(--main-color);
 }
 
 /* Portfolio */
