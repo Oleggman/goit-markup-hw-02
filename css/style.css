@@ -96,7 +96,11 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* Hero section */
+/**
+  |============================
+  | Hero section
+  |============================
+*/
 
 .hero {
   background-color: var(--secondary-color);
@@ -111,7 +115,11 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* Our Team */
+/**
+  |============================
+  | Our Team
+  |============================
+*/
 .team {
   background-color: var(--cloud-color);
 }
@@ -126,7 +134,11 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* Footer */
+/**
+  |============================
+  | Footer
+  |============================
+*/
 
 .footer {
   color: var(--cloud-color);
@@ -137,7 +149,11 @@ body {
   color: var(--cloud-color);
 }
 
-/* Portfolio */
+/**
+  |============================
+  | Portfolio
+  |============================
+*/
 
 .filter-btn {
   color: var(--main-portfolio-filter-cl);
