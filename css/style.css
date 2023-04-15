@@ -12,7 +12,7 @@
   --white-color: #fff;
 
   --main-portfolio-filter-cl: #4d5ae5;
-  --main-portfolio-filter-bg-cl: #e7e9fc;
+  --main-portfolio-filter-bg-cl: #f4f4fd;
   --accent-portfolio-filter-bg-cl: #404bbf;
 }
 
@@ -32,6 +32,7 @@ body {
 
 .nav-link {
   font-weight: 500;
+  color: var(--secondary-color);
 }
 
 .site-logo {
@@ -103,6 +104,7 @@ body {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 
 /* Our Team */
@@ -129,6 +131,10 @@ body {
 .footer {
   color: var(--cloud-color);
   background-color: var(--secondary-color);
+}
+
+.footer .logo-span {
+  color: var(--cloud-color);
 }
 
 /* Portfolio */
