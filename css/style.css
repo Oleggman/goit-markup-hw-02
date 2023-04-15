@@ -49,6 +49,10 @@ body {
   color: var(--secondary-color);
 }
 
+.address {
+  font-style: normal;
+}
+
 .button {
   color: var(--white-color);
   background-color: var(--main-bg-btn-cl);
@@ -92,7 +96,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* Hero sectin */
+/* Hero section */
 
 .hero {
   background-color: var(--secondary-color);
@@ -122,11 +126,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* Address */
-
-.address {
-  font-style: normal;
-}
+/* Footer */
 
 .footer {
   color: var(--cloud-color);
