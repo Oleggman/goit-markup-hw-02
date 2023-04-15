@@ -1,0 +1,71 @@
+:root {
+  /* Fonts */
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  /* Colors */
+  --main-color: #2e2f42;
+  --main-color-hover: #404bbf;
+  --secondary-color: ##434455;
+  --main-bg-btn-cl: #4d5ae5;
+  --white-color: #fff;
+
+  --main-portfolio-filter-cl: #4d5ae5;
+  --main-portfolio-filter-bg-cl: #e7e9fc;
+  --accent-portfolio-filter-bg-cl: #404bbf;
+}
+
+body {
+  color: var(--main-color);
+  font-family: var(--main-font);
+}
+
+.site-logo {
+  text-decoration: none;
+}
+
+.link {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+.button {
+  color: var(--white-color);
+  background-color: var(--main-bg-btn-cl);
+  font-family: inherit;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--main-color-hover);
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--main-color-hover);
+}
+
+.list {
+  list-style: none;
+}
+
+.description {
+  color: var(--secondary-color);
+}
+
+/* Portfolio */
+
+.card {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+.filter-btn {
+  color: var(--main-portfolio-filter-cl);
+  background-color: var(--main-portfolio-filter-bg-cl);
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--white-color);
+  background-color: var(--accent-portfolio-filter-bg-cl);
+}
